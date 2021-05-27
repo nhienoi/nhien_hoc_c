@@ -1,0 +1,25 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main() {
+	int x, n;
+	cout << "hello Khanh Ly nguc to !" << endl;
+	cout << "************************"<< endl;
+	cout << "type x: ";
+	cin >> x;
+	cout << "type n: ";
+	cin >> n;
+
+	int tich = 1;
+	int gt = 1;
+	double sum;
+	double sum2 = 0;
+	for (int i = 1; i <= n; i++) {
+		tich = tich * x;
+		gt = gt * i;
+		sum = (tich / gt);
+		sum2 = sum2 + sum;	
+	}
+	cout << sum2;
+	return 0;
+}
