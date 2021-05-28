@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int n;
+	cout << "Khanh Ly zu to xin hay nhap: ";
+	cin >> n;
+	for (int i = 2; i < n; i++) {
+		if (n % i == 0) {
+			cout << "Khong phai so nguyen to";
+			break;
+		}
+	} 
+	return 0;
+}
