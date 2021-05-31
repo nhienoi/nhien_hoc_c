@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+void sawp(double *&pa, double *&pb);
+int main() {
+	
+	return 0;
+}
+void swap(){
+
+
+}
