@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+struct nhanvien{
+	int ma;
+	char ten[50];
+};
+int main() {
+	nhanvien dsNV[3];
+	ds[0].max = 1;
+	ds
+
+}
