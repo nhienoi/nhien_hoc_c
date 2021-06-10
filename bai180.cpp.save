@@ -1,0 +1,25 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+	int n;
+	cin >> n;
+	if (n > 0){
+		int count = 0;
+		int tong;
+		while (n > 0) {
+			n /= 10;
+			count++;
+		} 
+		cout << count;
+		cout << "************";
+		for (int i = 0; i <= count; i++) {
+			int ok = n;
+			ok %= 10;
+			tong += ok * pow(10, count);
+			count--;
+		}
+		cout << tong;
+	}
+	return 0;
+}
