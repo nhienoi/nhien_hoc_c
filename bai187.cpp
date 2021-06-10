@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 using namespace std;
 int main() {
@@ -20,3 +21,6 @@ int main() {
 	cout << 2,5e9;
  	return 0;
 }
+=======
+git p
+>>>>>>> 4906af7f15955af4b0563fc1790d19cc5d0fb56c
