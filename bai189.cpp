@@ -37,5 +37,6 @@ int main() {
 			break;
 		} 
 	}
+	cout << "toi muon dit Khanh Ly";
 	return 0;
 }
