@@ -12,7 +12,15 @@ int main() {
     int m[n];
     type(m,n);
     exprt(m,n);
-    Bsearch(m, n, 15);
+    int x;
+    cout << "nhap so can tim kiem: ";
+    cin >> x;
+    int a = Bsearch(m, n, x);
+    if (a == -1) {
+	cout << "ko tim thay";
+    } else {
+	cout << "tim thay o vi tri" << a;
+	}
     return 0;
 }
 
@@ -25,16 +33,16 @@ void type(int m[], int n) {
 
 void exprt(int m[], int n) {
     for (int i = 0; i < n; i++) {
-        cout << "m[" << i << "] = " << m[i];
+        cout << "m[" << i << "] = " << m[i] <<"\t";
     }
 }
 
-int Bsearch(int m[], int n; int x) {
+int Bsearch(int m[], int n, int x) {
     int left = 0;
     int right = n -1;
     int mid;
     do {
-        mid = (left + right) 2;
+        mid = ((left + right)/ 2);
         if (m[mid] == x) {
             return mid;
         } else if (m[mid] > x) {
@@ -42,5 +50,6 @@ int Bsearch(int m[], int n; int x) {
         } else {
             left = mid + 1;
         }
-    } while (left <= right)
+    } while (left <= right);
+	return -1;
 }

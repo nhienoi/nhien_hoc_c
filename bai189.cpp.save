@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+struct student {
+	char ma[10];
+	char ten[150];
+	bool gioitinh;
+};
+int main() {
+	student students[10]l	return 0;
+}
