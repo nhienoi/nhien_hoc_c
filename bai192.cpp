@@ -7,6 +7,6 @@ int main() {
     double n;
     cout <<"type a floating point number: ";
     cin >> n;
-    cout << setprecision(1) << n;
+    cout << setprecision(2) << n;
     return 0;
 }

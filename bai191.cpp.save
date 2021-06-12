@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+struct product {
+	
+};
+
+int main() {
+	
+	return 0;
+}
