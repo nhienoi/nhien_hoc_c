@@ -6,9 +6,9 @@
             "command": "/usr/bin/gcc-9",
             "args": [
                 "-g",
-                "${file}",
+                "${workspaceFolder\\bai192.cpp}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${workspaceFolder}\\bai192.cpp"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
