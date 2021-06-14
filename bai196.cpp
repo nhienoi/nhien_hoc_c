@@ -10,7 +10,7 @@ void  bubbleSort(int m[], int n);
 void type(int m[], int n) {
 	srand(time(NULL));
 	for (int i = 0; i < n; i++) {
-		m[i] = rand() %100;	
+		m[i] = rand() %10;	
 	}
 }
 
