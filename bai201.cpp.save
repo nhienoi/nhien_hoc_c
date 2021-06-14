@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int m = {100, 3, 60, 35, 20};
+	bubbleSort(m, 5);
+	return 0;
+}
