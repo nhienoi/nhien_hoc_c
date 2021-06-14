@@ -23,11 +23,12 @@ void exprt(int m[], int n) {
 
 void bubbleSort(int m[], int n) {
 	for (int i = 0; i < n - 1; i++) {
-		int temp;
-		if (m[i] < m[i+1]) {
-			temp = m[i];
-			m[i] = m[i+1];
-			m[i+1] = temp;
+		for (int j = n - 1;  j > i; j--) {
+			if (m[j] < m[j-1]) {
+				int temp = m[j];
+				m[j] = m[j-1];
+				m[j-1] = temp;
+			}
 		}
 	}	
 
@@ -39,10 +40,14 @@ int main() {
 	cin >> n;
 	int m[n];
 	type(m, n);
-	cout <<"waiting for sort array:" << endl;
-	bubbleSort(m, n);
-	cout << "xuat mang m: " << endl;
+	cout << "original array: " << endl;
 	exprt(m, n);
+	cout <<"waiting for sort array:" << endl;
+	cout << "loading";
+	for (int i = 0; i <= 20; i++) {
+		cout << ".";
+	}
+	cout << "after sort, now array are: " << endl;
 	bubbleSort(m, n);
 	exprt(m, n);
 	return 0;
