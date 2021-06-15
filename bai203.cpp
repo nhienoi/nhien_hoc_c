@@ -8,6 +8,7 @@ void exprt(int m[], int n);
 void selectionSort(int m[], int n);
 
 void type(int m[], int n) {
+	srand(time(NULL));
 	for (int i = 0; i < n; i++) {
 		m[i] = rand() % 100;
 	}
@@ -30,8 +31,8 @@ void selectionSort(int m[], int n) {
 		}
 		int temp;
 		temp = m[min];
-		m[min] = m[j];
-		m[j] = temp;
+		m[min] = m[i];
+		m[i] = temp;
 	}
 }
 int main() {
@@ -40,6 +41,10 @@ int main() {
 	cin >> n;
 	int m[n];
 	type(m, n);
-
+	cout << "array: ";
+	exprt(m ,n);
+	cout << endl;
+	selectionSort(m, n);
+	exprt(m, n);
 	return 0;
 }
