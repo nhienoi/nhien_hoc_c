@@ -23,9 +23,21 @@ void exprt(int m[], int n) {
 }
 
 void insertionSort(int m[], int n) {
+<<<<<<< HEAD
 	for (int i = 0; i < n; i++) {
 
 	}	
+=======
+	int pos = 0;
+	int x;
+	for (int i = 0; i < n; i++) {
+		x = m[i];
+		for (pos = i; pos > 0 && m[pos - 1] > x; pos--) {
+			m[pos] = m[pos - 1];
+		}
+		m[pos] = x;
+	}
+>>>>>>> 912ab518a61b761fd6e4516f463c3e1655b5a526
 }
 
 using namspace std;
