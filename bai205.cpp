@@ -2,6 +2,8 @@
 #include <ctime>
 #include <cstdlib>
 
+using namespace std;
+
 void type(int m[], int n);
 void epxrt(int m[], int n);
 void insertionSort(int m[], int n);
@@ -21,7 +23,9 @@ void exprt(int m[], int n) {
 }
 
 void insertionSort(int m[], int n) {
-	k
+	for (int i = 0; i < n; i++) {
+
+	}	
 }
 
 using namspace std;
