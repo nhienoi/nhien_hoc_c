@@ -25,7 +25,7 @@ void exprt(int m[], int n) {
 void insertionSort(int m[], int n) {git
 	int pos = 0;
 	int x;
-	for (int i = 0; i < n; i++) {
+	for (int i = 1; i < n; i++) {
 		x = m[i];
 		for (pos = i; pos > 0 && m[pos - 1] > x; pos--) {
 			m[pos] = m[pos - 1];
