@@ -22,10 +22,7 @@ void exprt(int m[], int n) {
 	cout << endl;
 }
 
-void insertionSort(int m[], int n) {
-	for (int i = 0; i < n; i++) {
-
-	}
+void insertionSort(int m[], int n) {git
 	int pos = 0;
 	int x;
 	for (int i = 0; i < n; i++) {
