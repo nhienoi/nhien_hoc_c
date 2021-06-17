@@ -12,12 +12,7 @@ void check(int n) {
 		}
 		n = n / 10;
 	}
-	if (sum == n) {
-		cout << n;
-	} else {
-		cout << sum;
-		cout << endl;
-	}
+	cout << sum;
 }
 
 int main() {
