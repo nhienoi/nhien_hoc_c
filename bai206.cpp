@@ -11,21 +11,18 @@ void type(int m[], int n) {
 }
 
 void result(int m[], int n) {
-	int min;
-	int temp;
-	for (int i = 1; i < n; i++) {
-		min = m[0];
+	int site;
+	bool ok;
+	for (int i = 0; i < n; i++) {
+		int min = m[0];
 		if (min > m[i]) {
-			temp = min;
+			int temp = min;
 			min = m[i];
 			m[i] = temp;
+			site = i;
 		}
 	}
-	if (min > 0) {
-		cout << "gia tri duong nho nhat: " << min;
-	} else {
-		cout << -1;
-	}
+	cout << i;
 }
 
 int main() {
