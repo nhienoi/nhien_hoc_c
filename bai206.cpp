@@ -12,6 +12,7 @@ void type(int m[], int n) {
 
 void result(int m[], int n) {
 	int min;
+	int temp;
 	for (int i = 1; i < n; i++) {
 		min = m[0];
 		if (min > m[i]) {
