@@ -17,7 +17,6 @@ void check(int n) {
 	} else {
 		cout << sum;
 		cout << endl;
-		cout << kq;
 	}
 }
 
