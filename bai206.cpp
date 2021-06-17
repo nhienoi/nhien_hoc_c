@@ -22,7 +22,7 @@ void result(int m[], int n) {
 			site = i;
 		}
 	}
-	cout << i;
+	cout << site;
 }
 
 int main() {
