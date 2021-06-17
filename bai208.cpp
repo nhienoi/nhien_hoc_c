@@ -14,17 +14,22 @@ void check(int n) {
 	}
 	if (sum == n) {
 		cout << n;
-	} 
+	} else {
+		cout << sum;
+		cout << endl;
+		cout << kq;
+	}
 }
 
 int main() {
-	int a, b;
-	cout << "a = ";
-	cin >> a;
-	cout << "b = ";
-	cin >> b;
-	for (int i = a; i <= b; i++) {
-		check(i);
- 	}
+	// int a, b;
+	// cout << "a = ";
+	// cin >> a;
+	// cout << "b = ";
+	// cin >> b;
+	// for (int i = a; i <= b; i++) {
+	// 	check(i);
+ // 	}
+	check(145);
 	return 0;
 }
