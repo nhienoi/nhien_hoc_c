@@ -4,9 +4,9 @@ void check(int n);
 
 void check(int n) {
 	int sum = 0;
-	int kq = 1;
 	while (n != 0) {
 		for (int i = 1; i <= n % 10; i++) {
+			int kq = 1;
 			kq *= i;
 		}
 		sum += kq;
