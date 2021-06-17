@@ -13,10 +13,8 @@ bool check(int n) {
 		n = n / 10;
 	}
 	if (sum == n) {
-		return true;
-	} else {
-		return false;
-	}
+		cout << n;
+	} 
 }
 
 int main() {
@@ -26,9 +24,7 @@ int main() {
 	cout << "b = ";
 	cin >> b;
 	for (int i = a; i <= b; i++) {
-		if (check(i)) {
-			cout << i << " ";
-		} 
+		check(i);
  	}
 	return 0;
 }
