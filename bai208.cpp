@@ -1,18 +1,17 @@
 #include <iostream>
 using namespace std;
 void check(int n);
+int f(int n);
+
+int f(int n) {
+	int kq = 1;
+	for (int i = 1; i <= n; i++) {
+		kq *= i;
+	}
+	return kq;
+}
 
 void check(int n) {
-	int sum = 0;
-	while (n != 0) {
-		for (int i = 1; i <= n % 10; i++) {
-			int kq = 1;
-			kq *= i;
-			sum += kq;
-		}
-		n = n / 10;
-	}
-	cout << sum;
 }
 
 int main() {
@@ -24,6 +23,10 @@ int main() {
 	// for (int i = a; i <= b; i++) {
 	// 	check(i);
  // 	}
-	check(145);
+	int n;
+	cin >> "nhap so can test: ";
+	cin >> n;
+	int ok = f(n);
+	cout << ok;
 	return 0;
 }
