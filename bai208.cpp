@@ -28,9 +28,7 @@ int main() {
 	for (int i = a; i <= b; i++) {
 		if (check(i)) {
 			cout << i << " ";
-		} else {
-			cout << 0;
-		}
+		} 
  	}
 	return 0;
 }
