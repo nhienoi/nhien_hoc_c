@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-bool check(int n);
+void check(int n);
 
-bool check(int n) {
+void check(int n) {
 	int sum = 0;
 	int kq = 1;
 	while (n != 0) {
