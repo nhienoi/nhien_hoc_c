@@ -8,8 +8,8 @@ void check(int n) {
 		for (int i = 1; i <= n % 10; i++) {
 			int kq = 1;
 			kq *= i;
+			sum += kq;
 		}
-		sum += kq;
 		n = n / 10;
 	}
 	if (sum == n) {
