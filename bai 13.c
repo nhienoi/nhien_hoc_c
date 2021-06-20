@@ -10,3 +10,5 @@ int main() {
     printf("Area = %f", Area);
     return 0;
 }
+// this is some comment my friend
+//this is a commant
