@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 #include <conio.h>
 #include "console.h"
@@ -78,3 +79,15 @@ void TextColor (int color)
 {
  SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE) , color);
 }
+=======
+#include <iostream>
+#include <time.h>
+#include <cstdlib>
+using namespace std;
+int main() {
+	srand(time(NULL);
+	x = rand() % 100;
+	cout << x;
+	return 0;
+}
+>>>>>>> 50daab29ca648a2b58c7e3e80d22f92f1d71ae8b
