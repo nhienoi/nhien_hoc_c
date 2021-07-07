@@ -6,7 +6,7 @@ int main() {
     // cout << *p + 1;
     int i = 10;
     while (i >= 0) {
-        cout << *p[i] << " ";
+        cout << *p[i] << " ";ss
         i--;
     }
     return 0;
