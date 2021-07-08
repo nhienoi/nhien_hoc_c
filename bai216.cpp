@@ -16,6 +16,8 @@ int main() {
     people thao(22, 95, 175);
     people trang(18, 98, 170);
     people anh(29, 85, 160);
-    
+    people bo_nhi = thao;
+    thao.tuoi = 24;
+    cout << bo_nhi.tuoi;
     return 0;
 }
